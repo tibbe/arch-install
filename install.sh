@@ -27,6 +27,7 @@ source $OKARCHY_INSTALL/development/vscode.sh
 # Desktop
 show_subtext "Installing desktop tools [3/5]"
 source $OKARCHY_INSTALL/desktop/fonts.sh
+source $OKARCHY_INSTALL/desktop/keyring.sh
 source $OKARCHY_INSTALL/desktop/printer.sh
 
 # Updates
