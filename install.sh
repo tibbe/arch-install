@@ -24,6 +24,11 @@ source $OKARCHY_INSTALL/development/terminal.sh
 source $OKARCHY_INSTALL/development/development.sh
 source $OKARCHY_INSTALL/development/vscode.sh
 
+# Desktop
+show_subtext "Installing desktop tools [3/5]"
+source $OKARCHY_INSTALL/desktop/fonts.sh
+source $OKARCHY_INSTALL/desktop/printer.sh
+
 # Updates
 show_subtext "Updating system packages [5/5]"
 sudo updatedb
