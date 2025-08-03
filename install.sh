@@ -27,11 +27,12 @@ source $OKARCHY_INSTALL/development/rust.sh
 # Desktop
 show_subtext "Installing desktop tools [3/5]"
 source $OKARCHY_INSTALL/desktop/fonts.sh
+source $OKARCHY_INSTALL/desktop/mouse.sh
 source $OKARCHY_INSTALL/desktop/printer.sh
 
 # Apps
 show_subtext "Installing default applications [4/5]"
-source $OMARCHY_INSTALL/apps/xtras.sh
+source $OKARCHY_INSTALL/apps/xtras.sh
 
 # Updates
 show_subtext "Updating system packages [5/5]"
